@@ -1,0 +1,5 @@
+# 阿里云FC 3.0 依赖（最小化）
+xlsxwriter>=3.0.0
+Pillow>=10.0.0
+# 注意：不要安装oss2或alibabacloud SDK，避免cryptography版本冲突
+# 使用内置urllib进行API调用
